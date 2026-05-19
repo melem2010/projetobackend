@@ -22,7 +22,7 @@ function rodarServidor(){
     produtos.forEach(produto => {
         console.log("|" + chalk.rgb(50, 0, 180)(`${produto.nome}\t`) +
                     "|" + chalk.rgb(100, 0, 190)(`${produto.preco}\t`) + 
-                    "|" + chalk.rgb(180, 0, 200)(`${produto.preco}\t`) + "|")
+                    "|" + chalk.rgb(180, 0, 200)(`${produto.estoque}\t`) + "|")
     })
 }
 
